@@ -1,0 +1,8 @@
+toNotify: [
+    Stale_Muffins,
+    Phoenix_TimeLord,
+    kylerhagler
+]
+useCustomMessages: false
+hideLag: true
+regex: \\b(gay|retard|pussy|vagina|penis|(mother|sister)?fuck(er|ing|ed|s)?|shit(er|ing|ed|s|head)?|(dumb|smart)?ass(hole|hat)?|hell|damn(ed|ing)?|cunt|bitch|fag(got)?|(stank|stink)?dick(head|butt)?|cock(head|sucker)?|nigger|nigga|niglet|bastard|sex(y|ier|iest|ing|ed)?|taint|tit(ty|ties|s)?|kabo|h3ll|dam)\\b

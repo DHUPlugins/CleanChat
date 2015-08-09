@@ -1,0 +1,47 @@
+name: CleanChat
+version: 0.2.6
+author: Jack Dalton
+main: co.jackdalton.cleanchat.cleanchat
+
+commands:
+  cleanchat:
+    description: View the current version of the CleanChat plugin.
+  addrecipient:
+    description: Add someone to be notified when a user is censored.
+    usage: /addrecipient <player>
+    permission: cc.add
+  removerecipient:
+    description: Remove someone who is notified when a user is censored.
+    permission: cc.remove
+    usage: /removerecipient <player>
+  addword:
+    description: Add a word to the blacklist.
+    permission: cc.addword
+  removeword:
+    description: Remove a word from the blacklist.
+    permission: cc.removeword
+  listrecipients:
+    description: List current CC notification recipients.
+    permission: cc.listrecipients
+  cctoggle:
+    description: CC config toggle master command.
+    permission: cc.toggle
+permissions:
+  cc.*:
+    description: Gives access to all CleanChat commands.
+    children:
+      cc.toggle: true
+      cc.add: true
+      cc.remove: true
+      cc.addword: true
+      cc.removeword: true
+  cc.add:
+    description: Add someone to be notified when a user is censored.
+  cc.remove:
+    description: Remove someone who is notified when a user is censored.
+  cc.addword:
+    description: Add a word to the blacklist.
+  cc.removeword:
+    description: Removes a word from the blacklist.
+  cc.toggle:
+    description: CC config toggle master command.

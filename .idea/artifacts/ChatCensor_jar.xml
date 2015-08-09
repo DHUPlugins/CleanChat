@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ChatCensor:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ChatCensor_jar</output-path>
+    <root id="archive" name="ChatCensor.jar">
+      <element id="module-output" name="ChatCensor" />
+    </root>
+  </artifact>
+</component>
